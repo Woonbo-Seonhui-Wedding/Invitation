@@ -295,7 +295,7 @@ h4.inline, h5.inline, h6.inline{
 	color:white;	
 	}
 .weddinginvitation{
-	color:white;
+	color:ivory;
 }
 /*#ffd4d4*/
 .gallery{
@@ -324,15 +324,19 @@ h4.inline, h5.inline, h6.inline{
 	}
 .Dday{
 	
+	font-family: 'Sunflower', sans-serif;
 	line-height: 80%;
 }
 	
 .simkim{
-	font-size:24px;
+	font-size:28px;
 	font-weight:900;
+	font-family: 'Nanum Gothic Coding', monospace;
+	line-height: 150%;
 	}	
 .abcd{
-	font-size:20px
+	font-size:20px;
+	font-family: 'Sunflower', sans-serif;
 	}
 .abcd p{
 	line-height: 80%;
