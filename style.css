@@ -331,12 +331,13 @@ h4.inline, h5.inline, h6.inline{
 .simkim{
 	font-size:28px;
 	font-weight:900;
+	font-family: 'Quattrocento', serif;
 	}	
-/* .simkim .nameletter{
+.simkim .nameletter{
 	
 	font-family: 'Nanum Gothic Coding', monospace;
 	line-height: 150%;
-} */
+}
 	
 .abcd{
 	font-size:20px;
