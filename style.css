@@ -1,0 +1,386 @@
+body {
+/* 	background-color: #ededed; */
+	margin:0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rowxx > .column {
+  padding: 6px 6px;
+  background-color: #f2f2f2;
+}
+
+.column {
+/*	float: left;	*/
+  width: 70%;
+  margin:40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.showmemore{
+	
+}
+.showmemore img{
+	border-radius: 50%;
+}
+.thumbnail{
+	
+}
+.slidecolumn {
+  float: left;
+  width: 12.5%;
+  padding: 1px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 0%;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  margin-top: -50px;
+  top: 0%;
+  left: 50%;
+  transform:translate(-50%, 0%)
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 4px;
+  padding-top:30px;
+  color: white;
+}
+
+.demo {
+	opacity: 0.6;
+	height: 80px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#map
+{
+	width:90%;
+	height:250px;
+	background: yellow;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #d3d3d3;
+}
+
+
+/*****		Where & When		****/
+.section-title h2 {
+    font-size: 40px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans KR',sans-serif;
+}
+
+h2, .h2{
+	font-size:30px;
+}
+h3, .h3{`
+	font-size:20px;
+}
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+	color:#333333;
+}
+h4 a, h4 a:link, h4 a:visited{
+	color:#C02291;
+	text-decoration: none;
+}
+
+h1.inline, h2.inline, h3.inline,
+h4.inline, h5.inline, h6.inline{
+	display:inline;
+	vertical-align:middle;
+}
+
+.de-icon.circle{
+	border-radius: 50%;
+    color: #FFF;
+}
+
+.de-icon.small-size {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.de-icon.inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.de-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 8px 0;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.col-md-4, .col-md-8, .col-md-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.text-center{
+	display:block;
+	width:80%;
+/*	border-bottom-style:double;
+	border-bottom-color:rgb(106, 106, 106);
+	border-bottom-width: medium;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.howtogo{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.traffic_navigation{
+	width:95%;
+	text-align: right;
+	line-height:0.4;
+}
+.traffic_navigation img{
+	width:30px;
+	border: 1px solid #fafafa;
+}
+.lastimage img{
+	width:100%;
+}
+
+.link_insta img{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid{
+	display:grid;
+	grid-template-rows: 500px 650px 200px 60px;
+}
+
+.mine{
+	text-align:center;
+	color:white;	
+	}
+.weddinginvitation{
+	color:white;
+}
+/*#ffd4d4*/
+.gallery{
+	text-align:center;
+	color:gray;
+}
+
+.bg{
+	background-image: url('images/First.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	overflow:hidden;
+	border:0px solid pink;
+}
+	
+.WEDDING{
+	font-family: 'Quattrocento', serif;
+	font-size:20px;
+	font-weight:900;
+	letter-spacing:0.45em
+	}	
+.Dday{
+	font-size:30px;
+	font-weight:900;
+	}
+.Dday{
+	
+	line-height: 80%;
+}
+	
+.simkim{
+	font-size:24px;
+	font-weight:900;
+	}	
+.abcd{
+	font-size:20px
+	}
+.abcd p{
+	line-height: 80%;
+}
+	
+.comment{
+	background-color:ivory;
+	font-size:16px;
+	font-family: 'Nanum Myeongjo', serif;
+	line-height:250%;
+	color:black;	
+	}
+	
+.abcdb{
+	background-color:ivory;
+	border-top: 1px solid #e3e3e3;
+}
+.abcdc{
+	background-color:ivory;
+}
+
+#ba{
+	text-align:left;
+}
+
+.b1{
+	font-size:18px
+	}
+.b2{
+	font-size:12px
+	
+}
+.groom{
+	font-size:11px
+}	
+.bride{
+	font-size:11px
+}
+.name{
+	font-size:30px;
+	font-weight:500;
+	vertical-align:middle;
+/*	font-family: 'Sunflower', sans-serif;*/
+}
+	
+.row{
+	font-size:20px;
+	background-color:white;
+	text-align:center;
+/*	border-top: 1px solid #e3e3e3;*/
+	}
